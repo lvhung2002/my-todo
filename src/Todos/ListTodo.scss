@@ -1,0 +1,80 @@
+.list-todo-container {
+    
+    button {
+        cursor: pointer;
+    }
+
+
+
+    .add-todo {
+
+        .add {
+            height: 35px;
+            width: 60px;
+            color: white;
+            font-size: 25px;
+            margin: 0 10px;
+            background-color: rgb(58, 184, 174);
+            border-radius: 5px;
+        }
+        .add:hover{
+            background-color:rgb(47, 143, 135) ;
+        }
+        .add-input{
+            width: 80%;
+            height: auto;
+            font-size: 25px;
+        }
+    }
+
+    .list-todo-content {
+        width : 100%;
+        margin: 0 auto;
+
+        .todo-child {
+            &:first-child {
+                border-top: 1px solid grey;
+            }
+            height       : 40px;
+            border-bottom: 1px solid grey;
+            margin       : 10px;
+            .span{
+                font-size: 25px;
+            float: left;
+            }
+            .input-edit{
+                
+                font-size: 25px;
+
+            }
+            
+            
+            .delete {
+            height: 35px;
+            width: 85px;;
+            color: white;
+            font-size: 25px;
+            margin: 0 10px;
+            background-color: rgb(205, 64, 64);
+            border-radius: 5px;
+            float: right;
+            }
+            .delete:hover{
+                background-color:rgb(134, 46, 50) ;
+            }
+            .edit {
+            height: 35px;
+            width: 70px;
+            color: white;
+            font-size: 25px;
+            margin: 0 10px;
+            background-color: rgb(58, 184, 174);
+            border-radius: 5px;
+            float: right;
+            }
+            .edit:hover{
+                background-color:rgb(47, 143, 135) ;
+            }
+        }
+    }
+}
